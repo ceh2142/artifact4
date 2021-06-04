@@ -101,9 +101,9 @@ console.log(validPassword);
  console.log(validCity);  
 
 /*********** VALIDATES STATE ******** 
- * required if in USA */
- if (myContact.state.value=="United States" && myContact.state.value=="Not Applicable")
- errorMessages += "<p>The state is required for addresses in the United States</p>";
+ * required  */
+ if (myContact.state.value==null || myContact.state.value=="")
+ errorMessages += "<p>The state is required</p>";
  else 
  validState =true;
 
