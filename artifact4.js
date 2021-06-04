@@ -123,4 +123,4 @@ console.log(validPassword);
  return (validFirstname && validLastname && validEmail && validPhone && validUsername 
  && validUserPassword && validEmail && validAddress && validCity && validZip);
 
-}0");
+}
